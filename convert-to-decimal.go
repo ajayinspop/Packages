@@ -29,7 +29,7 @@ func ConvertToDecimal(numText, devText string) (*float64, *string) {
 		val, _ := strconv.ParseFloat(devText, 64)
 		dev = val
 	} else {
-		err =  "Entered denominator is not correct ."
+		err =  "Entered denominator is not correct . change"
 		return nil, &err
 	}
 
